@@ -22,3 +22,8 @@ do :
 .PHONY : debug
 debug :
 	@gdb $(TARGET)
+
+.PHONY : git
+git :
+	@git add .
+	@git commit -m "New elements"
